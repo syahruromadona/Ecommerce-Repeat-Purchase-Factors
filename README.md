@@ -30,12 +30,7 @@ Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel,
 ## 5. Analysis Result
 
 Key Findings (Coefficients indicate effect on repeat probability):
-| Factor                         | Effect Direction | Magnitude (standardized) |
-| ------------------------------ | ---------------- | ------------------------ |
-| Avg. Item Price (per customer) | Negative         | -0.12                    |
-| % of Delayed Orders            | Negative         | -0.05                    |
-| Avg. Delivery Time (days)      | Negligible       | -0.003                   |
-| Avg. Review Score              | Weak Positive    | -0.04 (counterintuitive) |
+<img width="588" height="428" alt="download" src="https://github.com/user-attachments/assets/16ff4c81-a908-46a6-84ec-41ff8b9f3d19" />
 
 - Customer-level average item price shows the strongest association with repeat purchasing; higher-priced purchases are linked to lower repeat probability.
 - Delivery reliability (percentage of delayed orders) is negatively associated with repeat behavior, though the effect is materially smaller than price.
