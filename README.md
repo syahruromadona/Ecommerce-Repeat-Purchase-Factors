@@ -29,6 +29,7 @@ Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel,
 
 ## 5. Analysis Result
 
+Key Findings (Coefficients indicate effect on repeat probability):
 | Factor                         | Effect Direction | Magnitude (standardized) |
 | ------------------------------ | ---------------- | ------------------------ |
 | Avg. Item Price (per customer) | Negative         | -0.12                    |
