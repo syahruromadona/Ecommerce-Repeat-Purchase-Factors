@@ -1,6 +1,6 @@
 ## Executive summary
 
-Repeat customers are the backbone of our business, yet they currently make up only a small portion of our customer base. What factors are most strongly associated with customer repeat purchases in an e-commerce marketplace? I use SQL to clean the data and Python to do analysis. I found that customer-level average item price shows the strongest association with repeat purchasing
+Repeat customers are the backbone of our business, yet they currently make up only a small portion of our customer base. What factors are most strongly associated with customer repeat purchases in an e-commerce marketplace? I use SQL to clean the data and Python to do analysis. I found that customer-level average item price shows the strongest association with repeat purchasing.
 
 ## Business Problem
 
