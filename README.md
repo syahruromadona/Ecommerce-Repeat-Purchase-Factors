@@ -9,7 +9,7 @@ In competitive e-commerce marketplaces, customer repeat purchasing is a key driv
 ## Methodology
 
 1. SQL query that extracts, cleans, and transforms the data from the database.
-2. A funnel analysis in Python to simulate changes and determine the best areas of opportunity.
+2. Performed a Python analysis to model customer repeat-purchase behavior and identify the most impactful opportunities for improvement.
 
 Data was obtained via [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) which contains 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil.
 
