@@ -29,6 +29,13 @@ Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel,
 
 ## 5. Analysis Result
 
+| Factor                         | Effect Direction | Magnitude (standardized) |
+| ------------------------------ | ---------------- | ------------------------ |
+| Avg. Item Price (per customer) | Negative         | -0.12                    |
+| % of Delayed Orders            | Negative         | -0.05                    |
+| Avg. Delivery Time (days)      | Negligible       | -0.003                   |
+| Avg. Review Score              | Weak Positive    | -0.04 (counterintuitive) |
+
 - Customer-level average item price shows the strongest association with repeat purchasing; higher-priced purchases are linked to lower repeat probability.
 - Delivery reliability (percentage of delayed orders) is negatively associated with repeat behavior, though the effect is materially smaller than price.
 - Average delivery speed shows little independent association with repeat purchasing after controlling for other factors.
