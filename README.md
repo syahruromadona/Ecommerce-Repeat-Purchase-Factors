@@ -47,7 +47,7 @@ Key Findings (Coefficients indicate effect on repeat probability):
 
 - This is observational data, results are intended to guide hypothesis formation rather than direct decision-making.
 - Customer-level aggregation may mask product-level dynamics
-- Potential confounding from unobserved factors (e.g., customer location)
+- Potential confounding from unobserved factors such as customer locations
 
 ## 7. Next step
 
