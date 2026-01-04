@@ -24,6 +24,7 @@ Operational Definition
 ## 4. Skills
 
 SQL: CTEs, Joins, Case, aggregate functions
+
 Python: Pandas, Matplotlib, Numpy, Writing functions, statistics
 
 ## 5. Analysis Result
