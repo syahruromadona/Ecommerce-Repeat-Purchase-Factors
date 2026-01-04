@@ -1,15 +1,15 @@
 ## Executive summary
 
-Repeat customers are the backbone of our business, yet they currently make up only a small portion of our customer base. What factors are most strongly associated with customer repeat purchases in an e-commerce marketplace? I use SQL to clean the data and Python to do analysis. I found that customer-level average item price shows the strongest association with repeat purchasing.
+Repeat customers are the backbone of our business, yet they currently make up only a small portion of our customer base. What factors are most strongly associated with customer repeat purchases in an e-commerce marketplace? I use SQL to clean the data and Python to do the analysis. I found that customer-level average item price shows the relative strength of association with repeat purchasing relative to delivery and review-related factors.
 
 ## Business Problem
 
-In competitive e-commerce marketplaces, customer repeat purchasing is a key driver of long-term revenue and customer lifetime value. While firms routinely invest in faster delivery, pricing strategies, and post-purchase experience improvements, it is often unclear which of these factors are most strongly associated with customers returning to make additional purchases. Without clarity on the relative importance of delivery performance, pricing, and customer experience signals, businesses risk allocating resources toward initiatives with limited impact on retention. This analysis seeks to identify which observable customer-level factors are most strongly associated with repeat purchasing behavior, in order to inform prioritization of operational and commercial strategies.
+In competitive e-commerce marketplaces, customer repeat purchasing is a key driver of long-term revenue and customer lifetime value. It is often unclear which of these factors are most strongly associated with customers returning to make additional purchases. Without clarity on the relative importance of delivery performance, pricing, and customer experience signals, businesses risk focusing on the wrong metric. This is a diagnostic analysis for focusing on factors that correlate with repeat purchases and not causal drivers.
 
 ## Methodology
 
-1. SQL query that extracts, cleans, and transforms the data from the database.
-2. Performed a Python analysis to model customer repeat-purchase behavior and identify the most impactful opportunities for improvement.
+1. **SQL -** Queries that extracts, cleans, and transforms the data from the database.
+2. **Python -** Pandas, Matplotlib, Numpy, Writing functions
 
 Data was obtained via [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) which contains 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil.
 
@@ -24,8 +24,7 @@ Operational Definition
 ## 4. Skills
 
 SQL: CTEs, Joins, Case, aggregate functions
-
-Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
+Python: Pandas, Matplotlib, Numpy, Writing functions, statistics
 
 ## 5. Analysis Result
 
@@ -38,14 +37,14 @@ Key Findings (Coefficients indicate effect on repeat probability):
 | Avg. Review Score              | Weak Positive    | -0.04 (counterintuitive) |
 
 
-- Customer-level average item price shows the strongest association with repeat purchasing; higher-priced purchases are linked to lower repeat probability.
+- Customer-level average item price shows the strongest association with repeat purchasing. The effect size is modest and the ‘strongest’ is used in relative sense among other variables rather than absolute predictor.
 - Delivery reliability (percentage of delayed orders) is negatively associated with repeat behavior, though the effect is materially smaller than price.
 - Average delivery speed shows little independent association with repeat purchasing after controlling for other factors.
 - Review scores show a weak and counterintuitive association, likely influenced by timing and aggregation effects.
 
 ## 6. Limitation
 
-- Observational data; causality cannot be inferred
+- This is observational data, results are intended to guide hypothesis formation rather than direct decision-making.
 - Customer-level aggregation may mask product-level dynamics
 - Potential confounding from unobserved factors (e.g., customer location)
 
